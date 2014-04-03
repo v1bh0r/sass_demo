@@ -10,13 +10,15 @@ body {
 }
 
 .hero-unit {
+  @include rounded(6px);
+  @include box-shadow(0px, 5px, 20px, gray);
+
   margin: 50px auto 0 auto;
   width: 300px;
 
   font-weight: 200;
   line-height: 30px;
   background-color: #eee;
-  border-radius: 6px;
   padding: 60px;
   h1, h2, h3, h4, h5, h6 {
     line-height: 1;
