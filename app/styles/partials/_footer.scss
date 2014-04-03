@@ -1,4 +1,7 @@
+@import "../modules/mixins";
+
 footer {
   @extend .nav;
   bottom: 0;
+  @include box-shadow(0px, -2px, 5px, black);
 }
